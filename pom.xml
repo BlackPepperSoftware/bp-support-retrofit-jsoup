@@ -16,10 +16,10 @@
 	<name>Black Pepper Support Retrofit jsoup</name>
 
 	<scm>
-		<connection>scm:git:git@codebasehq.com:blackpepper/black-pepper-support/bp-support-retrofit-jsoup.git</connection>
-		<developerConnection>scm:git:git@codebasehq.com:blackpepper/black-pepper-support/bp-support-retrofit-jsoup.git</developerConnection>
+		<connection>scm:git:git@github.com:BlackPepperSoftware/bp-support-retrofit-jsoup.git</connection>
+		<developerConnection>scm:git:git@github.com:BlackPepperSoftware/bp-support-retrofit-jsoup.git</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://blackpepper.codebasehq.com/black-pepper-support/bp-support-retrofit-jsoup.git</url>
+		<url>https://github.com/BlackPepperSoftware/bp-support-retrofit-jsoup</url>
 	</scm>
 	
 	<dependencies>
