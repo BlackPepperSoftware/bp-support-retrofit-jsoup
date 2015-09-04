@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<parent>
+		<groupId>uk.co.blackpepper</groupId>
+		<artifactId>bp-parent</artifactId>
+		<version>1.0.3</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>uk.co.blackpepper.support</groupId>
+	<artifactId>bp-support-retrofit-jsoup</artifactId>
+	<version>1.0.3-SNAPSHOT</version>
+	
+	<name>Black Pepper Support Retrofit jsoup</name>
+
+	<scm>
+		<connection>scm:git:git@codebasehq.com:blackpepper/black-pepper-support/bp-support-retrofit-jsoup.git</connection>
+		<developerConnection>scm:git:git@codebasehq.com:blackpepper/black-pepper-support/bp-support-retrofit-jsoup.git</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://blackpepper.codebasehq.com/black-pepper-support/bp-support-retrofit-jsoup.git</url>
+	</scm>
+	
+	<dependencies>
+	
+		<!-- Guava -->
+	
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>17.0</version>
+		</dependency>
+
+		<!-- Retrofit -->
+		
+		<dependency>
+			<groupId>com.squareup.retrofit</groupId>
+			<artifactId>retrofit</artifactId>
+			<version>1.6.0</version>
+		</dependency>
+
+		<!-- jsoup -->
+
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.7.3</version>
+		</dependency>			
+		
+		<!-- JUnit -->
+	
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Mockito -->
+		
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>1.9.5</version>
+			<scope>test</scope>
+		</dependency>
+		
+	</dependencies>
+	
+</project>
